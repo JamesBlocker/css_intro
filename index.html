@@ -24,6 +24,59 @@
         #description {
             border: 1px dashed red;
         }
+        .red-bar {
+            background: red;
+            width: 100%;
+            height: 10px;
+        }
+        .white-bar {
+            background: rgb(255, 255, 255);
+            width: 100%;
+            height: 10px;
+        }
+        .blue-bar {
+            background: rgb(50, 27, 250);
+            width: 100%;
+            height: 10px;
+        }
+        .blue-laos {
+            background: blue;
+            width: 100%;
+            height: 20px;
+            color: white;
+            text-align: center;
+            padding-bottom: 6px;
+        }
+        .the-flag1{
+            margin: 40px auto;
+            width: 300px;
+            border: 2px solid black;
+            border-bottom: 52px solid black;
+        }
+        .float {
+            float: left;
+            margin: auto;
+        }
+
+        .red-stripe {
+            background: red;
+            width: 33%;
+            height: 50px;
+            display: inline-block;
+        }
+        .white-stripe {
+            background: rgb(255, 255, 255);
+            width: 33%;
+            height: 50px;
+            display: inline-block;
+        }
+        .blue-stripe {
+            background: rgb(50, 27, 250);
+            width: 33%;
+            height: 50px;
+            display: inline-block;
+        }
+
     </style>
 </head>
 <body>
@@ -31,8 +84,17 @@
     <h2>Land of chill and primal</h2>
     <p>I want to go there because it's <span>primal</span>.</p>
     <p id="description">This country is really big and beautiful</p>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="the-flag laos">
+        <div class="red-bar"></div>
+        <div class="blue-laos">⚪</div>
+        <div class="red-bar"></div>
+    </div>
+<br>
+    <div class="the-flag1">
+        <div class="blue-stripe float"></div>
+        <div class="white-stripe float"></div>
+        <div class="red-stripe float"></div>
+    </div>
+    
 </body>
 </html>
